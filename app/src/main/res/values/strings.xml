@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NelsonHongLe_COMP304_401_Hands-On_Test1_F23</string>
+    <string name="hands_on_test_1_comp_304_401">Hands-On Test 1 COMP-304 401</string>
+    <string name="brain_challenge">Brain Challenge</string>
+    <string name="exercise_1">Exercise 1</string>
+    <string name="exercise_3">Exercise 3</string>
+    <string name="exercise_2">Exercise 2</string>
+    <string name="next">Next</string>
+    <string name="select_types_of_exercises">Select Types of Exercises</string>
+    <string name="challenge_your_brain_with_scientifically_designed_exercises">Challenge Your Brain with scientifically designed exercises</string>
+    <string name="select_button">Select Button</string>
+    <string name="brain_logo">Brain Logo</string>
+</resources>

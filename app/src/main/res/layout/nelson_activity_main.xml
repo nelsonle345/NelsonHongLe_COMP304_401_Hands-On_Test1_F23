@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Nelson Hong Le - 301064831 - COMP 304 SEC401-->
+<!-- res/layout/nelson_activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/HeadingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/light_blue"
+        android:padding="16dp"
+        android:text="@string/hands_on_test_1_comp_304_401"
+        android:textColor="#757575"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/brainChallengeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/brain_challenge"
+        android:textSize="28sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/HeadingTextView"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/subtitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/brainChallengeTextView"
+        android:layout_marginTop="-40dp"
+        android:layout_marginBottom="32dp"
+        android:padding="16dp"
+        android:text="@string/challenge_your_brain_with_scientifically_designed_exercises"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/brain_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/subtitleTextView"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/brain_logo" />
+
+    <ImageButton
+        android:id="@+id/selectExerciseButton"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/logoImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@null"
+        android:contentDescription="@string/select_button"
+        android:src="@drawable/select"
+        tools:ignore="RedundantDescriptionCheck" />
+</RelativeLayout>
